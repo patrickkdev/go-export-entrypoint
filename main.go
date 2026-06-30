@@ -12,7 +12,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fatal("Usage: gomodslice <entrypoint> <destination>")
+		fatal("Usage: go-export-entrypoint <entrypoint> <destination>")
 	}
 
 	entrypoint := os.Args[1]
